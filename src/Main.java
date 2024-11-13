@@ -10,7 +10,7 @@ public class Main {
     private static final int MAX_DEPTH = 3;
 
     public static void main(String[] args) {
-        System.out.print("Inserisci il seed URL: ");
+        System.out.print("Inserisci il sito: ");
         String domain = new java.util.Scanner(System.in).nextLine();
         String seedURL = "https://" + domain;
 
